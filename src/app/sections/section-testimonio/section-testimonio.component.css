@@ -1,0 +1,19 @@
+h4{
+    text-align: center;
+    font-size: 32px;
+    color: #447c11;
+    margin-top: 2em;
+    margin-bottom: 2em;
+   }
+.contenedor{
+    margin-bottom: 2em;
+}
+.cell{
+    background-image: grey;
+    background-repeat: no-repeat;
+    padding-left: 85px;
+}
+.uno-cuatro{
+    width: 24%;
+    display: inline-block;
+}

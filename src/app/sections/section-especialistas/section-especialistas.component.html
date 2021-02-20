@@ -1,0 +1,26 @@
+<div class="contenedor">
+    <h2>Especialistas en energía solar</h2>
+
+    <div class="tres tics">
+        <div *ngFor="let item of tiposCheck" class="check">
+            <p> {{ item }} </p>
+        </div>
+    </div>
+
+    <div class="tres imagen-central">
+        <img src="src\assets\img4.jpg">
+    </div>
+
+    <div class="tres formulario">
+
+        <h3>Solicítanos <br> presupuesto</h3>
+
+        <form method="post">
+            <input *ngFor="let item of formInput" [type]="type" [placeholder]="item">
+            <textarea placeholder="Mensaje o consulta"></textarea>
+            <input type="submit" name="Enviar" value="Enviar Mensaje">
+        </form>
+
+    </div>
+
+</div>

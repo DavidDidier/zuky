@@ -1,0 +1,13 @@
+<div class="contenedor">
+    
+    <h4>Testimoniales</h4>
+    <div *ngFor="let item of text"
+         class="cell">
+        <p> {{ item }} </p>
+        <em *ngFor="let item of autorText"> 
+            {{ item }} 
+        </em>
+    
+    </div>
+   
+</div>

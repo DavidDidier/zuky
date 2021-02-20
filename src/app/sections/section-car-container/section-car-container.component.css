@@ -1,0 +1,19 @@
+h5{
+    padding: 1em;
+    font-size: 15px;
+}
+p{
+    padding: 1em;
+    text-align: justify;
+    line-height: 26px;
+}
+img {
+    width: 64px;
+    height: 54px;
+    vertical-align: middle;
+}
+.tres{
+    width:30%;
+    display: inline-block;
+    vertical-align: middle;
+}

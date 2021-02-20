@@ -1,0 +1,15 @@
+*{
+    background: blue;
+    padding-bottom: 1em;
+   }
+
+h2{
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    font-size: 32px;
+    font-weight: 700;
+}
+.cell{
+    display: table-cell;
+}
